@@ -5,4 +5,6 @@
     <string name="et_pass">Ingresar contraseña</string>
 
     <string name="button">LOG IN</string>
+
+    <string name="buttonValor">Resultado</string>
 </resources>
