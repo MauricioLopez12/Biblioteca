@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Biblioteca</string>
+
+    <string name="et_user">Ingresar usuario</string>
+    <string name="et_pass">Ingresar contraseña</string>
+
+    <string name="button">LOG IN</string>
 </resources>
