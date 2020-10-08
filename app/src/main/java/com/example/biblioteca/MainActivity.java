@@ -67,10 +67,11 @@ public class MainActivity extends AppCompatActivity {
             pb.setVisibility(View.INVISIBLE);
             iv_git.setVisibility(View.VISIBLE);
         }
+    }
 
-        public void acceder(View view){
-            //Intent i = new Intent(this, );
-            //startActivity(i);
-        }
+    public void github(View view){
+        Intent i = new Intent(this, github_act.class);
+        startActivity(i);
+        iv_git.setVisibility(View.INVISIBLE);
     }
 }
