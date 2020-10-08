@@ -25,7 +25,7 @@ public class github_act extends AppCompatActivity {
         spinner = (Spinner)findViewById(R.id.spinner);
         tv = (TextView)findViewById(R.id.textView);
 
-        String [] libros = {"Farenheint", "Revival", "El Alquimista"};
+        String [] libros = {"Farenheint", "Revival", "El Alquimista", "El Poder", "Despertar"};
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, libros);
         spinner.setAdapter(adapter);
     }
@@ -42,6 +42,12 @@ public class github_act extends AppCompatActivity {
         }
         if(seleccionLibro.equals("El Alquimista")){
             tv.setText("El valor de " + seleccionLibro + " es: " + valor.getElAlquimista());
+        }
+        if(seleccionLibro.equals("El Poder")){
+            tv.setText("El valor de " + seleccionLibro + " es: " + valor.getElPoder());
+        }
+        if(seleccionLibro.equals("Despertar")){
+            tv.setText("El valor de " + seleccionLibro + " es: " + valor.getDespertar());
         }
     }
 }
